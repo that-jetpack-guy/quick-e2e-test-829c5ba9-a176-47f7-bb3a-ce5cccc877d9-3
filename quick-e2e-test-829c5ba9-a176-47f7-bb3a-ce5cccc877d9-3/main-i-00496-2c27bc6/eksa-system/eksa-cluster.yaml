@@ -20,7 +20,7 @@ spec:
   datacenterRef:
     kind: DockerDatacenterConfig
     name: main-i-00496-2c27bc6
-  eksaVersion: v0.0.0-dev+build.8249
+  eksaVersion: v0.0.0-dev+build.8250
   externalEtcdConfiguration:
     count: 1
   gitOpsRef:
@@ -33,7 +33,7 @@ spec:
   managementCluster:
     name: main-i-00496-2c27bc6
   workerNodeGroupConfigurations:
-  - count: 3
+  - count: 1
     name: md-0
 
 ---
